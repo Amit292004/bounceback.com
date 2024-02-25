@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bounce Back Academy</title>
+  <link rel="shortcut icon" href="http://127.0.0.1:5500/Bounce%20Back%20Academy.jpg" type="image/x-icon">
+</head>
+<body style="background-color: yellowgreen;">
+  <marquee behavior="red" direction="right"><h1 style="text-align: center;">WELCOME TO BOUNCE BACK ACADEMY!</h1></marquee>
+  <p style="font-size: larger;"><b>Welcome to Bounce Back Academy</b>, your ultimate destination for mastering JEE and NEET content, alongside comprehensive coverage of key concepts for classes 10, 11, and 12, all at absolutely no cost to you. At Bounce Back Academy, we believe that education should be accessible to everyone, and our mission is to empower students to excel in their academic pursuits. Whether you're gearing up for competitive exams or striving to strengthen your foundational understanding, our expertly curated resources and engaging tutorials are here to guide you every step of the way. Join us on this journey of learning, growth, and resilience as we help you bounce back towards success.</p>
+  <hr>
+  <h2 style="text-decoration: double;">Bounce Back Academy Youtube Channel Offical link :<a href="https://youtube.com/@BounceBackAcademy">Bounce Back Academy</a></h2>
+  
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
